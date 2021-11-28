@@ -1,3 +1,5 @@
+const secret = require("./secret")
+
 module.exports =  {
   '@vuepress/pwa':{
     serviceWorker: true,
@@ -10,8 +12,8 @@ module.exports =  {
     platform:"github-v4",
     owner:"coderwmt",
     repo:"docs",
-    clientId:"573ddd11cba4657cfcfb",
-    clientSecret:"90568dc2bfaaca7290368962931a072753310e51",
+    clientId:secret.clientId,
+    clientSecret:secret.clientSecret,
     autoCreateIssue:true
   },
   '@vuepress/back-to-top':true
