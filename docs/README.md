@@ -16,3 +16,12 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
 
 # Hello VuePress
+
+## pwa
+为了演示pwa演示内容
+
+注意需要在本地安装vuepress！！！
+
+新的内容
+
+新的内容添加
