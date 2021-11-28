@@ -1,4 +1,5 @@
 module.exports = {
+  base:"/docs/",
   title: "WuSir",
   description:"关于我学习前端的个人博客",
   head:[
