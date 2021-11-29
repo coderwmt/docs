@@ -1,7 +1,6 @@
 const headConfig = require("./config/headConfig")
 const pluginsConfig = require("./config/pluginsConfig")
-const navConfig = require("./config/navConfig")
-const sidebarConfig = require("./config/sidebarConfig")
+const nav = require("./nav")
 
 module.exports = {
   base: "/docs/",
@@ -12,7 +11,8 @@ module.exports = {
   themeConfig: {
     lastUpdated: '更新时间',
     logo: '/assets/img/hero.png',
-    nav: navConfig,
-    sidebar: sidebarConfig
+    nav: nav,
+    search: true,
+    searchMaxSuggestions: 10
   }
 }
